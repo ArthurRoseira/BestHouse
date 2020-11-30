@@ -1,0 +1,39 @@
+<div class="cart-overlay">
+  <div class="cart">
+    <span class="closecart">
+      <i class="fas fa-window-close"></i>
+    </span>
+    <h2>your cart</h2>
+    <div class="cart-content">
+      <!-- cart item-->
+      <div class="cart-item">
+        <img src="./images/product-1.jpeg" alt="product">
+        <div>
+          <h4>queen bed</h4>
+          <h5>$1500</h5>
+          <span class="remove-item">remove</span>
+        </div>
+        <div>
+          <i class="fas fa-chevron-up"></i>
+          <p class="item-amount">1</p>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+      <!-- cart item-->
+
+
+
+
+
+
+   <article class="product">
+      <div class="img-container">
+       <img src=${products.image} alt="product" class = "product-img">
+       <button class = "class-btn" data-id = ${products.id}>
+        <i class="fas fa-shopping-cart"></i>
+        add to cart
+       </button> <!-- data-id just a data stored in the btn to know wich one is clicked -->
+      </div>
+      <h3>${product.title}</h3>
+      <h4>$${product.price}</h4>
+     </article>
